@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/grid_view_library.iml" filepath="$PROJECT_DIR$/.idea/grid_view_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="grid_view_library/entry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grid_animation_library/grid_animation_library.iml" filepath="$PROJECT_DIR$/.idea/modules/grid_animation_library/grid_animation_library.iml" group="grid_view_library/grid_animation_library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/grid_view_library.iml" filepath="$PROJECT_DIR$/.idea/grid_view_library.iml" group="grid_view_library" />
     </modules>
   </component>
 </project>

@@ -7,23 +7,23 @@
 package com.pratik.grid_animation_library;
 
 public final class ResourceTable {
-    public static int Color_black = 0x2000002;
-    public static int Color_gray = 0x2000003;
-    public static int Color_red = 0x2000004;
-    public static int Color_ssbutton_default = 0x2000005;
-    public static int Color_text_button_disabled = 0x2000006;
-    public static int Color_text_button_enabled = 0x2000007;
-    public static int Color_white = 0x2000008;
+    public static int Color_black = 0x3000002;
+    public static int Color_gray = 0x3000003;
+    public static int Color_red = 0x3000004;
+    public static int Color_ssbutton_default = 0x3000005;
+    public static int Color_text_button_disabled = 0x3000006;
+    public static int Color_text_button_enabled = 0x3000007;
+    public static int Color_white = 0x3000008;
 
-    public static int Graphic_background_ability_main = 0x2000009;
-    public static int Graphic_button_gray = 0x200000a;
+    public static int Graphic_background_ability_main = 0x3000009;
+    public static int Graphic_button_gray = 0x300000a;
 
-    public static int Id_button_icon = 0x200000c;
-    public static int Id_button_root = 0x200000d;
-    public static int Id_button_text = 0x200000e;
+    public static int Id_button_icon = 0x300000c;
+    public static int Id_button_root = 0x300000d;
+    public static int Id_button_text = 0x300000e;
 
-    public static int Layout_animation_grid = 0x200000b;
+    public static int Layout_animation_grid = 0x300000b;
 
-    public static int String_grid_animation_library_library = 0x2000000;
-    public static int String_hello = 0x2000001;
+    public static int String_grid_animation_library_library = 0x3000000;
+    public static int String_hello = 0x3000001;
 }
