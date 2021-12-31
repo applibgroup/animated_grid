@@ -54,11 +54,11 @@ public class UiUtils {
         try {
             return new Color( context.getResourceManager().getElement(colorResId).getColor());
         } catch (IOException e) {
-            e.printStackTrace();
+            Log.e(TAG,Log.getStackTraceString(e));
         } catch (NotExistException e) {
-            e.printStackTrace();
+            Log.e(TAG,Log.getStackTraceString(e));
         } catch (WrongTypeException e) {
-            e.printStackTrace();
+            Log.e(TAG,Log.getStackTraceString(e));
         }
 
 
@@ -75,7 +75,7 @@ public class UiUtils {
         try {
             return context.getResourceManager().getElement(resId).getString();
         } catch (Exception e) {
-            e.printStackTrace();
+            Log.e(TAG,Log.getStackTraceString(e));
         }
         return null;
     }
