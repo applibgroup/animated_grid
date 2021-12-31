@@ -54,12 +54,14 @@ public class UiUtils {
         try {
             return new Color( context.getResourceManager().getElement(colorResId).getColor());
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.log("context", e);
         } catch (NotExistException e) {
-            e.printStackTrace();
+            LOGGER.log("context", e);
         } catch (WrongTypeException e) {
-            e.printStackTrace();
+            LOGGER.log("context", e);
         }
+
+
         return null;
     }
 
