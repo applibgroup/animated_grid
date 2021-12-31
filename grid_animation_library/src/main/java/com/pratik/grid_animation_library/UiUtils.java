@@ -7,10 +7,16 @@ import ohos.app.Context;
 import ohos.global.resource.NotExistException;
 import ohos.global.resource.WrongTypeException;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.*;
+
 
 import java.io.*;
 
 public class UiUtils {
+
+
 
     /**
      * set background to a component
@@ -51,14 +57,18 @@ public class UiUtils {
      * @return instance of Color holding color information of {@param colorRsId}
      */
     public static Color getColor(Context context, int colorResId) {
+        LogManager slg = LogManager.getLogManager();
+
+        Logger log = slg.getLogger(Logger.GLOBAL_LOGGER_NAME);
+
         try {
             return new Color( context.getResourceManager().getElement(colorResId).getColor());
         } catch (IOException e) {
-            Log.e(TAG,Log.getStackTraceString(e));
+            log.log(Level.WARNING, "error");
         } catch (NotExistException e) {
-            Log.e(TAG,Log.getStackTraceString(e));
+            log.log(Level.WARNING, "error");
         } catch (WrongTypeException e) {
-            Log.e(TAG,Log.getStackTraceString(e));
+            log.log(Level.WARNING, "error");
         }
 
 
@@ -71,13 +81,20 @@ public class UiUtils {
      * @param resId string resource id, ex: ResourceTable.String_app_name
      * @return String value retrieved from string.json
      */
+
     public static String getString(Context context, int resId) {
+        LogManager slg1 = LogManager.getLogManager();
+
+        Logger log1 = slg1.getLogger(Logger.GLOBAL_LOGGER_NAME);
         try {
             return context.getResourceManager().getElement(resId).getString();
         } catch (Exception e) {
-            Log.e(TAG,Log.getStackTraceString(e));
+            log1.log(Level.WARNING, "error");
         }
         return null;
     }
+
+
+
 
 }
