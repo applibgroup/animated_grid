@@ -75,7 +75,7 @@ public class UiUtils {
         try {
             return context.getResourceManager().getElement(resId).getString();
         } catch (Exception e) {
-            e.printStackTrace();
+            LOGGER.log("context", e);
         }
         return null;
     }
