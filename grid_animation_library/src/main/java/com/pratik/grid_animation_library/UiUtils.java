@@ -16,6 +16,8 @@ import java.io.*;
 
 public class UiUtils {
 
+    private static final String ERROR_1 ="error";
+
 
 
     /**
@@ -64,11 +66,11 @@ public class UiUtils {
         try {
             return new Color( context.getResourceManager().getElement(colorResId).getColor());
         } catch (IOException e) {
-            log.log(Level.WARNING, "error");
+            log.log(Level.WARNING, ERROR_1);
         } catch (NotExistException e) {
-            log.log(Level.WARNING, "error");
+            log.log(Level.WARNING, ERROR_1);
         } catch (WrongTypeException e) {
-            log.log(Level.WARNING, "error");
+            log.log(Level.WARNING, ERROR_1);
         }
 
 
@@ -89,7 +91,7 @@ public class UiUtils {
         try {
             return context.getResourceManager().getElement(resId).getString();
         } catch (Exception e) {
-            log1.log(Level.WARNING, "error");
+            log1.log(Level.WARNING, ERROR_1);
         }
         return null;
     }
