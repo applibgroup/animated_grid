@@ -158,6 +158,19 @@ public class animationGrid extends StackLayout {
         textA.setTextColor(color);
     }
 
+   /* @Override
+    public void setClickedListener(ClickedListener listener) {
+        super.setClickedListener((c) -> {
+
+
+
+            listener.onClick(c);
+
+        });
+        *
+    */
+    //}
+
 
 
 }

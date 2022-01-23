@@ -8,3 +8,4 @@ public class ExampleTest {
         /*Empty method*/
     }
 }
+

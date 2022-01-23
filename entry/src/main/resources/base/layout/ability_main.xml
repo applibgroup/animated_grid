@@ -25,6 +25,7 @@
         ohos:width="match_content"
         ohos:alignment="center"
 
+
         />
     <com.pratik.grid_animation_library.animationGrid
         ohos:id="$+id:button_2"
@@ -51,6 +52,7 @@
         />
 
 </TableLayout>
+
 
 
 </DirectionalLayout>

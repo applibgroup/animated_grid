@@ -5,6 +5,8 @@ import com.pratik.grid_animation_library.animationGrid;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.agp.utils.Color;
+import ohos.agp.components.Component;
+import ohos.agp.window.dialog.ToastDialog;
 
 public class MainAbilitySlice extends AbilitySlice {
     @Override
@@ -29,18 +31,50 @@ public class MainAbilitySlice extends AbilitySlice {
         animationGrid Button4 = (animationGrid) findComponentById(ResourceTable.Id_button_4);
         Button4.setIconRes("https://www.animatedimages.org/data/media/202/animated-dog-image-0026.gif");
         Button4.setBg(ResourceTable.Graphic_button_white);
-        Button1.setTextColor(Color.BLACK);
+        Button4.setTextColor(Color.BLACK);
 
+        Button1.setClickedListener(
+                new Component.ClickedListener() {
+                    @Override
+                    public void onClick(Component view) {
 
+                        new ToastDialog(getContext()).setText("Button 1").show();
+                    }
+                });
 
+        Button2.setClickedListener(
+                new Component.ClickedListener() {
+                    @Override
+                    public void onClick(Component view) {
 
+                        new ToastDialog(getContext()).setText("Button 2").show();
+                    }
+                });
 
+        Button3.setClickedListener(
+                new Component.ClickedListener() {
+                    @Override
+                    public void onClick(Component view) {
 
+                        new ToastDialog(getContext()).setText("Button 3").show();
+                    }
+                });
 
+        Button4.setClickedListener(
+                new Component.ClickedListener() {
+                    @Override
+                    public void onClick(Component view) {
+
+                        new ToastDialog(getContext()).setText("Button 4").show();
+                    }
+                });
 
 
 
     }
+
+
+
 
     @Override
     public void onActive() {
