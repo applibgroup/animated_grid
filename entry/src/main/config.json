@@ -46,6 +46,42 @@
         "label": "$string:entry_MainAbility",
         "type": "page",
         "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page1",
+        "icon": "$media:icon",
+        "description": "$string:page1_description",
+        "label": "$string:entry_Page1",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page2",
+        "icon": "$media:icon",
+        "description": "$string:page2_description",
+        "label": "$string:entry_Page2",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page3",
+        "icon": "$media:icon",
+        "description": "$string:page3_description",
+        "label": "$string:entry_Page3",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page4",
+        "icon": "$media:icon",
+        "description": "$string:page4_description",
+        "label": "$string:entry_Page4",
+        "type": "page",
+        "launchType": "standard"
       }
     ]
   }

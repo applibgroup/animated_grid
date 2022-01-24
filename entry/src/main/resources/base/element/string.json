@@ -7,6 +7,54 @@
     {
       "name": "hello",
       "value": "Hello!"
+    },
+    {
+      "name": "page1_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "page1_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Page1",
+      "value": "entry_Page1"
+    },
+    {
+      "name": "page2_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "page2_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Page2",
+      "value": "entry_Page2"
+    },
+    {
+      "name": "page3_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "page3_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Page3",
+      "value": "entry_Page3"
+    },
+    {
+      "name": "page4_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "page4_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Page4",
+      "value": "entry_Page4"
     }
   ]
 }
