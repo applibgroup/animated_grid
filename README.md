@@ -4,7 +4,7 @@ An HMOS library for creating animated grid buttons.
 
 # Demo
 
-<img src="https://github.com/pratiknagalgave/animated_grid/blob/main/Demo.gif" style=" width:60px ; height:60px "  >
+<img src="https://github.com/pratiknagalgave/animated_grid/blob/main/Demo.gif" style=" width:90px ; height:180px "  >
 
 # How to use
 # Installation
