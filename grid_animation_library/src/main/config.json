@@ -1,0 +1,29 @@
+{
+  "app": {
+    "bundleName": "com.pratik.grid_animation",
+    "vendor": "pratik",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.pratik.grid_animation_library",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "grid_animation_library",
+      "moduleType": "har"
+    }
+  }
+}

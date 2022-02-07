@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="center"
+    ohos:background_element="#87CEEB"
+    >
+
+<TableLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:background_element="#87CEEB"
+    ohos:padding="8vp"
+    ohos:alignment_type="align_edges"
+    ohos:row_count="2"
+    ohos:column_count="2">
+
+
+    <com.pratik.grid_animation_library.animationGrid
+        ohos:id="$+id:button_1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+
+
+        />
+    <com.pratik.grid_animation_library.animationGrid
+        ohos:id="$+id:button_2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+
+
+        />
+    <com.pratik.grid_animation_library.animationGrid
+        ohos:id="$+id:button_3"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+
+
+        />
+    <com.pratik.grid_animation_library.animationGrid
+        ohos:id="$+id:button_4"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+
+        />
+
+</TableLayout>
+
+
+
+</DirectionalLayout>

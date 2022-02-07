@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:padding="3vp"
+    >
+
+    <DirectionalLayout
+        ohos:id="$+id:button_root"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+        ohos:background_element="$graphic:button_gray"
+        ohos:orientation="vertical"
+        >
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alignment="center"
+            ohos:bottom_margin="3vp"
+            ohos:left_margin="10vp"
+            ohos:top_padding="10"
+
+            ohos:min_height="40vp"
+            ohos:orientation="vertical"
+            ohos:right_margin="10vp"
+            ohos:top_margin="3vp"
+
+            >
+
+            <ohos.agp.components.webengine.WebView
+                ohos:id="$+id:button_icon"
+                ohos:height="300vp"
+                ohos:width="280vp"
+                ohos:background_element="$graphic:button_gray"
+                ohos:theme="$color:white"
+
+
+                ohos:layout_alignment="center"
+
+                ohos:visibility="visible"
+                ohos:weight="5"
+
+                />
+
+
+            <Text
+                ohos:id="$+id:button_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+
+                ohos:left_margin="5vp"
+                ohos:multiple_lines="true"
+                ohos:text="Button"
+                ohos:text_alignment="center"
+                ohos:text_color="white"
+                ohos:text_size="50fp"
+                ohos:text_weight="700"
+                ohos:weight="2"
+
+                />
+
+
+
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

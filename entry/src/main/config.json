@@ -1,0 +1,88 @@
+{
+  "app": {
+    "bundleName": "com.pratik.grid_animation",
+    "vendor": "pratik",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.pratik.grid_animation",
+    "name": ".MyApplication",
+    "mainAbility": "com.pratik.grid_animation.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page1",
+        "icon": "$media:icon",
+        "description": "$string:page1_description",
+        "label": "$string:entry_Page1",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page2",
+        "icon": "$media:icon",
+        "description": "$string:page2_description",
+        "label": "$string:entry_Page2",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page3",
+        "icon": "$media:icon",
+        "description": "$string:page3_description",
+        "label": "$string:entry_Page3",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.pratik.grid_animation.Page4",
+        "icon": "$media:icon",
+        "description": "$string:page4_description",
+        "label": "$string:entry_Page4",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
