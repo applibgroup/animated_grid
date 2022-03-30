@@ -22,7 +22,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        uses: sasirekha111/HarmonyOs-build@v10.7
+          Lang=java
+        uses: sasirekha111/HarmonyOs-build@v12.14
         continue-on-error: true
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
