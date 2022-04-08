@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 apply plugin: 'com.huawei.ohos.app'
-apply plugin: 'checkstyle'
+
 //For instructions on signature configuration, see https://developer.harmonyos.com/en/docs/documentation/doc-guides/ide_debug_device-0000001053822404#EN-US_TOPIC_0000001154985555__section1112183053510
 ohos {
     compileSdkVersion 6
@@ -39,19 +39,4 @@ allprojects {
         }
         jcenter()
     }
-    task checkstyle(type: Checkstyle) {
-        showViolations = true
-        configFile file("config/checkstyle.xml")
-        source 'entry/src/main/java'
-        source 'instalike/src/main/java'
-        include '**/*.java'
-
-        // empty classpath
-        classpath = files()
-    }
-}
-
-
-checkstyle {
-    toolVersion "8.43"
-}
+  
